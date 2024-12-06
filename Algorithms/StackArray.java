@@ -1,3 +1,5 @@
+package Algorithms;
+
 import java.util.EmptyStackException;
 
 class Stack {
@@ -22,13 +24,14 @@ class Stack {
             throw new EmptyStackException();
         }
     }
+
 }
 
-public void performOperations(Stack stack) {
-    stack.push(1);
-    stack.push(2);
-    stack.pop();
-}
+    public void performOperations(Stack stack) {
+        stack.push(1);
+        stack.push(2);
+        stack.pop();
+    }
 
 void main(String[] args) {
     // Example usage of stack abstraction

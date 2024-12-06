@@ -1,3 +1,5 @@
+package Algorithms;
+
 //Node class to represent a node in the queue
 class Node {
     int data; // Data stored in the node

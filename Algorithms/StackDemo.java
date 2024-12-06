@@ -1,3 +1,5 @@
+package Algorithms;
+
 class Stack {
     private int maxSize; // Maximum size of the stack
     private int[] stackArray; // Array to hold stack elements
